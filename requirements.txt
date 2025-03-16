@@ -1,0 +1,13 @@
+beautifulsoup4
+requests
+lxml
+transformers
+torch
+nltk
+gradio
+streamlit
+gtts
+coqui-ai-tts
+pandas
+matplotlib
+wordcloud
