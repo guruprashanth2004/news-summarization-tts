@@ -17,7 +17,7 @@ This project extracts news articles related to a company, summarizes them, perfo
 ### **Project Setup**  
  **Clone the Repository**  
 ```bash
-git clone https://github.com/YOUR_USERNAME/news-summarization-tts.git
+git clone https://github.com/guruprashanth2004/news-summarization-tts.git
 cd news-summarization-tts
 ```
 ### **set up virtual environment**
@@ -29,7 +29,7 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-### **Run the API **
+### **Run the API**
 ```bash
 python api.py
 ```
@@ -42,7 +42,7 @@ python app.py
 #### **Summarization Model**    
 - **Purpose:** Summarizes news articles into concise summaries.  
 - **Library Used:** `transformers`
-- 
+  
 #### **Sentiment Analysis Model**  
 - **Purpose:** Analyzes sentiment of news articles.  
 - **Library Used:** `transformers`    
@@ -118,10 +118,10 @@ http://127.0.0.1:5000/query?company=Tesla&sentiment=Positive
 - Bing News doesn’t always provide full article content.
 - Sentiment Model Limitations:
 - Works well for English news, but doesn’t analyze Hindi news.
-- ** works better when deployed in vs code than in hugging face**
+- #### *works better when deployed in vs code than in hugging face*
 
-📌 Deployment
+#### **Deployment**
 This application is deployed on Hugging Face Spaces.
 
-🔗 Live Demo: Hugging Face Link
+🔗 Live Demo: https://huggingface.co/spaces/guru14102004/news-summarization-tts
 
